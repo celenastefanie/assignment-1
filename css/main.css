@@ -84,8 +84,9 @@ a {
 }
 
 .wonders {
-  margin: 1em;
-  margin-top: 0em;
+  padding: 1em;
+  padding-top: 0em;
+  background-color: #FDF5E6;
 }
 
 h2 {
@@ -179,4 +180,56 @@ dt {
   float: right;
   display: inline-block;
   width: 36%;
+}
+
+.tickets {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 0.9em;
+}
+
+.atlantis {
+  position: relative;
+  padding-bottom: 0.5em;
+  background-color: #FDF5E6;
+}
+.atlantis-image {
+  opacity: 0.4;
+}
+
+.at-head {
+  position: absolute;
+  top: 30%;
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  width: 100%;
+}
+
+.at-text {
+  position: absolute;
+  top: 50%;
+  font-family: 'Lora', serif;
+  font-size: .90em;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  width: 100%;
+}
+
+.times-button {
+  position: absolute;
+  top: 70%;
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-left: 25%;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: block;
+  width: 50%;
 }
