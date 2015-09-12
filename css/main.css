@@ -64,7 +64,6 @@ a {
 .bannerhead {
   position: absolute;
   top: 22%;
-  margin: 0.5em;
   font-size: 1.5em;
   font-family: 'Poiret One', cursive;
   color: black;
@@ -82,13 +81,67 @@ a {
   text-shadow: 2px 2px 5px rgba(0,0,0,.5);
 }
 
-.7wonders {
-  margin: 2em;
+.wonders {
+  margin: 1em;
 }
+
 h2 {
   margin: 0em;
   padding: 0.5em;
+  padding-top: 0em;
   font-family: 'Poiret One', cursive;
   font-size: 1.4em;
   text-align: center;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+  text-align: left;
+}
+
+dl {
+  overflow: hidden;
+}
+
+dd {
+  margin-left: 0;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+dt {
+  font-size: 0.8em;
+  text-align: center;
+}
+.box-1 {
+  float: left;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.box-2 {
+  float: left;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.box-3 {
+  float: right;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.button-more {
+  padding: .5em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: block;
 }
