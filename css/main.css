@@ -16,6 +16,7 @@ img {
 
 header {
   padding: 1.5em;
+  background-color: #F0FFFF;
 }
 
 .logo {
@@ -34,6 +35,7 @@ h1 {
 nav {
   padding-bottom: 1em;
   margin: 0em;
+  background-color: #F0FFFF;
 }
 ol li {
   display: inline;
@@ -83,15 +85,17 @@ a {
 
 .wonders {
   margin: 1em;
+  margin-top: 0em;
 }
 
 h2 {
   margin: 0em;
   padding: 0.5em;
-  padding-top: 0em;
+  padding-top: .5em;
   font-family: 'Poiret One', cursive;
   font-size: 1.4em;
   text-align: center;
+  color: #9400D3;
 }
 
 h3 {
@@ -144,4 +148,35 @@ dt {
   text-align: center;
   font-family: 'Poiret One', cursive;
   display: block;
+}
+
+.buy-tickets {
+  background-color: #F0FFFF;
+  overflow: hidden;
+}
+.button-prices-one {
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: inline-block;
+  width: 36%;
+}
+
+.button-prices-two {
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-right: 2em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  display: inline-block;
+  width: 36%;
 }
