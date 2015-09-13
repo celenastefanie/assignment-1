@@ -58,6 +58,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #888;
+}
+
 .bannerimage {
   position: relative;
   opacity: 0.5;
@@ -249,4 +253,26 @@ dt {
 .dates-des {
   padding: 0em;
   width: 100%;
+  font-family: 'Lora', serif;
+  font-size: 0.75em;
+}
+
+footer p {
+  padding: 1em;
+}
+footer nav {
+  background-color: #FDF5E6;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+footer {
+  padding: 1em;
+  background-color: #FDF5E6;
+  font-family: 'Lora', serif;
+  font-size: 0.5em;
+  list-style-type: none;
 }
